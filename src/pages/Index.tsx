@@ -1,6 +1,6 @@
 import { PropertyHeader } from "@/components/PropertyHeader";
 import { PropertyHero } from "@/components/PropertyHero";
-import { PropertySpecs } from "@/components/PropertySpecs";
+import { PropertyTabs } from "@/components/PropertyTabs";
 import { MediaGallery } from "@/components/MediaGallery";
 import { PropertyContact } from "@/components/PropertyContact";
 import { PropertyFooter } from "@/components/PropertyFooter";
@@ -10,7 +10,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <PropertyHeader />
       <PropertyHero />
-      <PropertySpecs />
+      <PropertyTabs />
       <MediaGallery />
       <PropertyContact />
       <PropertyFooter />
